@@ -1,0 +1,179 @@
+@import "fonts.css";
+body {
+  font-family: 'Open Sans Semibold';
+  background: grey;
+}
+.menu__bar {
+  background: white;
+}
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+ .menu__item {
+   font-family: 'Open Sans Semibold';
+   margin-left: 37px;
+   list-style: none;
+   font-size: 18px;
+ }
+li a {
+  text-decoration: none;
+  color: black;
+}
+li a:hover {
+  color: #00897b;
+  text-decoration: none;
+}
+ li i {
+   color: black;
+ }
+
+ .logo {
+   margin-top: 50px;
+   margin-bottom: 50px;
+ }
+.menu__text {
+  background-image: url(../img/header.png);
+  background-position: 0 100%;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.head-title {
+  font-size: 55px;
+  margin: 180px 0px 30px;
+}
+.head-text {
+  font-size: 20px;
+  margin: 36px 0px 110px;
+}
+.button1 {
+  color: white;
+  text-transform: uppercase;
+  padding: 20px 32px 20px;
+  border: 2px solid white;
+  background: transparent;
+  transition: 0.3s;
+  margin: 0px 20px 180px;
+}
+.button1:hover{
+  background: #00897b;
+  border: 2px solid #00897b;
+}
+.about-u {
+  text-align: center;
+  background: white;
+}
+.about-u h1 {
+  margin: 120px 0px 40px;
+  font-family: 'Open Sans Bold';
+  font-size: 30px;
+}
+
+.about-u p {
+  font-size: 15px;
+  margin-bottom: 130px;
+}
+.about-u-2 i {
+  font-size: 80px;
+  margin-bottom: 40px;
+}
+.about-u-2 h3 {
+  font-size: 20px;
+  font: Bold;
+  margin-bottom: 25px;
+}
+.about-u-2 p {
+  font-size: 15px;
+}
+.service {
+  background-color: #e4fdf9;
+  text-align: center;
+  padding-bottom: 122px;
+}
+.service h1 {
+  font-size: 30px;
+  margin-top: 170px;
+  margin-bottom: 30px;
+}
+.service p {
+  font-size: 20px;
+  font-family: 'Open Sans Semibold';
+  margin-bottom: 115px;
+}
+.service-block {
+  padding: 54px 0px 45px;
+  background: white;
+  margin-left: 35px;
+  margin-bottom: 34px;
+  transition: 0.3s;
+}
+.service-block:hover {
+  color: white;
+  background: #00897b;
+  box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.26);
+
+}
+.service-block:hover .button-2 {
+  color: white;
+  background: #00897b;
+  border: 2px solid white;
+}
+.service-block i {
+  margin-bottom: 40px;
+  font-size: 70px;
+}
+.service-block h3 {
+  font-size: 20px;
+  font-family: 'Open Sans Semibold';
+  margin-bottom: 30px;
+}
+.service-block p {
+  font-size: 15px;
+  font-family: 'Open Sans Regular';
+  margin-bottom: 50px;
+}
+.button-2 {
+background: transparent;
+padding: 15px 12px 15px;
+color: black;
+border: 2px solid black;
+font-size: 15px;
+font-family: 'Open Sans Semibold';
+transition: 0.3s;
+}
+/*Latest Works*/
+.works {
+  text-align: center;
+  background: white;
+}
+.works h1 {
+  font-size: 30px
+  font-family: 'Open Sans Bold';
+  margin-top: 130px;
+}
+.works p {
+  font-size: 15px;
+  font-family: 'Open Sans Regular';
+  margin: 40px 0px 115px;
+}
+.button-3 {
+  background: transparent;
+  font-size: 20px;
+  font-family: 'Open Sans Semibold';
+  padding: 20px 30px 20px;
+  border: 2px solid #00897b;
+  margin: 0px 20px 120px 0px;
+  transition: 0.3s;
+}
+.button-3:hover {
+  color: white;
+  background: #00897b;
+}
+.img-w {
+  margin-bottom: 31px;
+}
+.space {
+  margin: 130px 0px;
+}
