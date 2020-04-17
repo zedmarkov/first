@@ -177,3 +177,11 @@ transition: 0.3s;
 .space {
   margin: 130px 0px;
 }
+/*Pricing*/
+.pricing {
+  background: #f0f1f1;
+  text-align: center;
+}
+.pricing h1 {
+  margin: 122px 0px  37px
+}
