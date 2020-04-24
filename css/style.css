@@ -15,7 +15,7 @@ li {
    font-family: 'Open Sans Semibold';
    margin-left: 37px;
    list-style: none;
-   font-size: 18px;
+   font-size: 20px;
  }
 li a {
   text-decoration: none;
@@ -72,6 +72,7 @@ li a:hover {
 }
 
 .about-u p {
+  font-family: 'Open Sans Regular';
   font-size: 15px;
   margin-bottom: 130px;
 }
@@ -93,13 +94,14 @@ li a:hover {
   padding-bottom: 122px;
 }
 .service h1 {
+  font-family: 'Open Sans Bold';
   font-size: 30px;
   margin-top: 170px;
   margin-bottom: 30px;
 }
 .service p {
-  font-size: 20px;
-  font-family: 'Open Sans Semibold';
+  font-size: 15px;
+  font-family: 'Open Sans Regular';
   margin-bottom: 115px;
 }
 .service-block {
@@ -184,9 +186,14 @@ transition: 0.3s;
   text-align: center;
 }
 .pricing h1 {
-  margin: 122px 0px  37px
+  margin: 122px 0px  37px;
+  font-size: 30px;
+  font-family: 'Open Sans Bold';
 }
-
+.pricing p {
+  font-size: 15px;
+  font-family: 'Open Sans Regular';
+}
 .pricing-block-header{
   background-image: url(../img/pricing_bg.png);
   background-repeat: no-repeat;
@@ -225,6 +232,7 @@ transition: 0.3s;
 .p-b {
   background: white;
   transition: 0.3s;
+  margin-bottom: 121px;
 }
 .p-b:hover{
   box-shadow: 1px 2px 41px 10px rgba(0,0,0,0.35);
@@ -245,4 +253,73 @@ transition: 0.3s;
   color: white;
   border: 1.5px solid #00897b;
   background: #00897b;
+}
+/*Member*/
+.member {
+  text-align: center;
+  background-color: white;
+}
+.member-head h1 {
+  font-size: 30px;
+  font-family: 'Open Sans Bold';
+  margin: 123px 0px 33px;
+}
+.member-head p {
+  font-size: 15px;
+  font-family: 'Open Sans Regular';
+  margin-bottom: 131px;
+}
+.member-block h3 {
+  font-size: 20px;
+  font-family: 'Open Sans Semibold';
+  margin: 37px 0px 17px;
+}
+.member-block p {
+  font-size: 15px;
+  font-family: 'Open Sans Regular';
+  margin-bottom: 28px;
+}
+.member-block i {
+  color: #00897b;
+  font-size: 40px;
+  margin:0px 15px 0px 15px;
+  transition: 0.3s;
+}
+.member-block i:hover {
+  color: darkblue;
+  cursor: pointer
+}
+.main-dote {
+  display: flex;
+  margin: 127px 0px 123px;
+}
+.dote {
+  width:16px;
+  height:16px;
+  background:#00897b;
+  border-radius:16px;
+  border:1px solid #00897b;
+  margin: 0px 6px 0px 6px;
+  transition: 0.3s;
+}
+.dote:hover {
+  border:1px solid darkblue;
+  background: darkblue;
+  cursor: pointer;
+}
+/*Blog*/
+.blog {
+  background: #e4fdf9;
+  text-align: center;
+}
+.blog h1 {
+  font-size: 30px;
+  font-family: 'Open Sans Bold';
+  margin: 123px 0px 33px;
+}
+.blog p {
+  font-size: 15px;
+  font-family: 'Open Sans Regular';
+  margin-bottom: 130px;
+
 }
