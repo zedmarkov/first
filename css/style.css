@@ -321,5 +321,63 @@ transition: 0.3s;
   font-size: 15px;
   font-family: 'Open Sans Regular';
   margin-bottom: 130px;
-
+}
+.blog-content-text{
+  text-align: left;
+  font-family: 'Open Sans Semibold';
+  margin-left: 15px;
+}
+.blog-content-text h3 {
+  font-size: 25px;
+  color: #00897b;
+  margin-bottom: 37px;
+}
+.blog-content-text span {
+  font-size: 17px;
+  margin-right: 35px;
+}
+.blog-content-text p {
+  font-size: 15px;
+  font-family: 'Open Sans Regular';
+  margin-top: 37px;
+}
+.space-2 {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/*Footer*/
+.footer {
+  background-image: url(../img/footer.png);
+  background-position: 0 100%;
+  background-size: cover;
+  color: white;
+}
+.footer-head {
+  text-align: center;
+}
+.footer h1 {
+  font-size: 30px;
+  font-family: 'Open Sans Bold';
+  margin: 123px 0px 33px;
+}
+.footer p {
+  font-size: 15px;
+  font-family: 'Open Sans Regular';
+  margin-bottom: 131px;
+}
+.icon-elem  {
+width: 100px;
+height: 100px;
+border-radius: 100px;
+background: #3949ab;
+color: white;
+font-size: 70px;
+text-align: center;
+margin-left: 60px;
+margin-bottom: 40px;
+}
+.footer-icons p {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Open Sans Semibold';
 }
